@@ -39,3 +39,20 @@ print test_str.rjust(15,"*")
     whose the length is defined by 1st parameter and 
     which fill up with a letter that is provided by 2nd paramter.
 """
+#using zfill function
+test_str = "1234"
+print test_str.zfill(10)
+print test_str.zfill(3)
+
+#String search
+test_str = "python-izm"
+print test_str.startswith("python")#true 
+print test_str.startswith("Python")#false 
+print test_str.startswith("izm")#false
+#therefore, python is case-sencetive 
+
+
+#if the letter contains? 
+test_str = "python-izm"
+print "z" in test_str
+print "s" in test_str
