@@ -1,5 +1,5 @@
 from Tkinter import *
-
+#Error: Frame is not defined 
 class Application(Frame):
     def say_hi(self):
         print "Hi, there, everyone!"
